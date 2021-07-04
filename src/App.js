@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
-import Button from './components/Button'
-import axios from 'axios';
 import FetchApi from './components/FetchApi'
-
+import './App.css'
+import './index.css';
+import Footer from './components/Footer';
+import Form from './components/form'
 function App() {
   
   return (
-    <div>
+    <div className = "appka">
       <Header />
-  
       <FetchApi/>
-    </div>
+     
+     
+      </div>
   )
 }
 

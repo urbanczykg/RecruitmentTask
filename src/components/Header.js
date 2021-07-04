@@ -4,7 +4,9 @@ function Header() {
 
         return(
         <div className="Header">
-            <header> Witamy Na stronie!</header>
+             <div class="center">
+            <header> Witamy!</header>
+            </div>
         </div>
         )
     }
